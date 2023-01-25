@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "firstGame",
+    "slug": "firstGame",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/circle.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/circle.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/circle.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/circle.png"
+    }
+  }
+}
